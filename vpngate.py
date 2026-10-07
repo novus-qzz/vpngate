@@ -407,7 +407,7 @@ def build_outputs(results, raw_count, sstp_count, source):
     return data
 
 
-CHAIN_URL = os.environ.get("CHAIN_URL", "https://jerylihub.github.io/gate/chains.txt")
+CHAIN_URL = os.environ.get("CHAIN_URL", "https://novus-qzz.github.io/vpngate/chains.txt")
 
 
 def build_chains_text(data):
@@ -468,7 +468,7 @@ EDGE_HOSTS = [
     if h.strip()
 ]
 
-HOSTS_URL = os.environ.get("HOSTS_URL", "https://jerylihub.github.io/gate/hosts.txt")
+HOSTS_URL = os.environ.get("HOSTS_URL", "https://novus-qzz.github.io/vpngate/hosts.txt")
 
 
 def build_hosts_text(data):
@@ -527,7 +527,7 @@ def build_hosts_text(data):
 EDT_UUID = os.environ.get("EDT_UUID", "a61b699f-6c9f-4159-84e4-10bb11c632ca")
 EDT_DOMAIN = os.environ.get("EDT_DOMAIN", "edt.nvis.kdns.fr")
 EDT_FINGERPRINT = os.environ.get("EDT_FINGERPRINT", "chrome")
-SUB_URL = os.environ.get("SUB_URL", "https://jerylihub.github.io/gate/sub.txt")
+SUB_URL = os.environ.get("SUB_URL", "https://novus-qzz.github.io/vpngate/sub.txt")
 
 
 def _b64_secret_encode(plaintext, secret):
